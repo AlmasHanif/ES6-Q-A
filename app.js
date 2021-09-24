@@ -81,3 +81,103 @@
 
 
 
+
+
+
+
+//////////////  Assignment  no 3///////////
+
+
+
+
+///Q no 1
+   
+//write a program which shows the couter after each second.
+
+
+// function counter(){
+    
+    
+//     console.log(`Hello Class`)
+// }
+
+// setInterval(counter,1000)
+
+
+
+///Q no 2
+
+// write a function which takes your name and displays the greeting with your name
+
+
+
+// function greeting(name) {
+//   return "Hello, " + name + "!";
+//   }
+  
+//   var myName = prompt("What's your name?");
+//   alert(greeting(myName));
+
+
+
+  ////Q no 3
+
+// write a function(arrow function) which takes two values and return its sum as a result
+
+
+// let a = 10;
+
+// adding = () => {
+//   return a + 5
+// }
+// let add = adding()
+// console.log(add)
+
+
+
+///Q no 4
+
+//write a function(arrow function) which takes a number and multiply it with 0.5 and return the new value. print the new value outside the function
+
+
+  // let num = +prompt("enter value")
+  // let sum = num * 0.5;
+
+  //   myFunc = () => {
+  //     return `new value after multiply 0.5 is ${sum}`
+  //   }
+
+  //   let ans = myFunc()
+  //   alert(ans)
+
+
+
+///Q no 5
+
+//print simple array of [1,2,3,4,5] with the help of array map funtion
+
+
+// const  arr = [1,2,3,4,5]
+
+//   arr.map((a) =>{
+//   console.log(a)
+// })
+
+
+
+///Q no 6
+
+// let arr = [{id:1,name:"abc"},{id:1,name:"efg"},{id:2,name:"hij"},{id:3,name:"xyz"}]
+// iterate the given array through map function and print the name and id
+
+
+// let records = [
+//   {id: 1, name: 'Almas', qual:'BS'},
+//   {id: 2,name: 'Tooba', qual:'Matric'},
+//   {id: 3,name: 'Jaweria', qual:'BS'},
+//   {id: 4,name: 'Shabana', qual:'Inter'}
+// ]
+
+// records.map((a) => {
+//   console.log(`stu name : ${a.name}  stu id  : ${a.id}`)
+// })

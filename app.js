@@ -7,7 +7,7 @@
 // function destructuring() {
 //     return ["karachi" , "lahore" , "islamabad" , "quetta"];
 //   }
-  
+
 //   let a, b , c , d;
 //   [a, b , c , d] = destructuring();
 //   console.log(a); 
@@ -18,9 +18,9 @@
 //   document.write(`${a}   ${b}   ${c} ${d}`)
 
 
-  ////Q no 2////
+////Q no 2////
 
-  // Make a car object with model, year, color. display all the values by destructuring
+// Make a car object with model, year, color. display all the values by destructuring
 
 
 //   let car = {
@@ -91,13 +91,13 @@
 
 
 ///Q no 1
-   
+
 //write a program which shows the couter after each second.
 
 
 // function counter(){
-    
-    
+
+
 //     console.log(`Hello Class`)
 // }
 
@@ -114,13 +114,13 @@
 // function greeting(name) {
 //   return "Hello, " + name + "!";
 //   }
-  
+
 //   var myName = prompt("What's your name?");
 //   alert(greeting(myName));
 
 
 
-  ////Q no 3
+////Q no 3
 
 // write a function(arrow function) which takes two values and return its sum as a result
 
@@ -140,15 +140,15 @@
 //write a function(arrow function) which takes a number and multiply it with 0.5 and return the new value. print the new value outside the function
 
 
-  // let num = +prompt("enter value")
-  // let sum = num * 0.5;
+// let num = +prompt("enter value")
+// let sum = num * 0.5;
 
-  //   myFunc = () => {
-  //     return `new value after multiply 0.5 is ${sum}`
-  //   }
+//   myFunc = () => {
+//     return `new value after multiply 0.5 is ${sum}`
+//   }
 
-  //   let ans = myFunc()
-  //   alert(ans)
+//   let ans = myFunc()
+//   alert(ans)
 
 
 
@@ -181,3 +181,229 @@
 // records.map((a) => {
 //   console.log(`stu name : ${a.name}  stu id  : ${a.id}`)
 // })
+
+
+
+
+
+
+
+
+/////  Assignment no 4 //////
+
+
+//Q no 1
+
+//We have an array of cities. Assign each city in different individual variable. hint ['LA', 'new york', 'karachi','islamabad']
+
+
+
+// let cities =  ['LA', 'new york', 'karachi','islamabad']
+
+//  let a , b , c , d ;
+//  [a , b , c , d] = cities
+
+//  console.log(a)
+//  console.log(b)
+//  console.log(c)
+//  console.log(d)
+
+
+
+//Q no 2
+
+//We have a student object. Assign each property in different and individual variable in JS {name:'Marry',age:20,rollNo:2}
+
+
+// let data = {name:'Marry' ,
+//             age:20,
+//             rollNo:2
+//           }
+
+//            let = { name , age , rollNo } = data
+
+//              console.log(name)
+//              console.log(age)
+//              console.log(rollNo)
+
+
+
+
+
+//Q no 3
+
+//A function is taking 5 arguments and You have to pass it through an array.
+//let arr = [1,2,3,4,5]
+
+// array = ((a , b , c , d, e) => {
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+//   console.log(d)
+//   console.log(e)
+// })
+
+// let arr = [1, 2, 3, 4, 5]
+
+
+// array(...arr);
+
+
+
+
+//Q no 4
+
+
+//Given an array of firstname and an array of last name. First check both array size is equal or not, if equal then make third new array which has first last name concat value
+//let firstNames = ['maryam', 'hira', 'faiza', 'aisha']
+//let lastNames = ['khan', 'ayub', 'aziz', 'yasin']
+
+
+
+ let firstNames = ['maryam', 'hira', 'faiza', 'aisha'];
+ let lastNames =   ['khan', 'ayub', 'aziz', 'yasin'];
+
+ 
+
+let fullName = firstNames.map((a)=>{
+    return  lastNames.map((b)=>{
+        return a.concat(b)
+    })
+})
+
+console.log(fullName)
+
+
+
+//Q no 5
+
+//Create an arrow function that takes array as an input and make each element double and then return an array
+
+
+// let array = [2,4,6,8];
+
+// let double = array.map((a)=>{
+//     return a * 2
+// })
+// console.log(array)
+// console.log(double)
+
+
+
+
+//Q no 6
+
+
+//Create an arrow function that takes a number and return square of a number
+
+// let arr = [2,4,6,8];
+
+// let result = arr.map(x => x ** 2);
+
+// console.log(result);
+
+
+
+//Q n0 7
+
+
+/*question: `var authenticated=true;
+var allowed = authenticated ? (alert('you r allowed')) : (alert('you are not allowed))
+which alert will run
+*/
+
+// var authenticated=true;
+
+// var allowed = authenticated ? (alert('you r allowed')) : (alert('you are not allowed'))
+
+
+/// you are allowed
+
+
+
+
+///Q no 7 
+
+
+/*
+question: ` What is the value of canDrive
+        var age = 12;
+        var canDrive = age > 18 ? 'yes' : 'no';
+        `,
+        answers: ['12', '18', 'yes', 'no'],
+        which is correct answer
+        */
+
+       /// answer is no
+
+
+
+// Q no 8
+
+/*
+question: `const dog='snickers'
+        logdog(dog);
+        function logdog(dog){
+            console.log(dog)
+        }
+         function go(){
+             const dog='sunny';
+             logdog(dog)
+         }`,
+        answers: ['snickers sunny','sunny snickers','snickers snickers','sunny sunny'] */
+
+        // const dog='snickers'
+        // logdog(dog);
+        // function logdog(dog){
+        //     console.log(dog)
+        // }
+
+        // function go(){
+        //     const dog='sunny';
+        //     logdog(dog)
+        // }
+
+//// ans is snicker
+
+
+/// Q no 9
+
+// let text = `He's often called "Johnny"`;
+//  console.log(text)// answer is  He's often called "Johnny"
+
+
+
+///Q no 10
+
+
+// function welcomeMsg(name = "Everyone") {
+//     let msg = "Welcome " + name
+//     console.log(msg)
+// }
+//  welcomeMsg("Faiza") /// print welcome faiza
+//  welcomeMsg() // print welcome everyone
+//I have called funtion twice , share the answer what is printed each time
+
+
+
+
+///Q no 11
+
+//make a promise that resolves after 5 sec. Use setTimeOut for resolve.
+
+//  let timer = 5;
+// let prom = new Promise((resolve , reject)=>{
+     
+//         setTimeout(() => {
+//             if(timer < 6){
+//             resolve('resolve after 5 sec')}
+//             else{
+//                 reject('sorry')
+//             };
+//           }, 5000);
+          
+// });
+// prom
+//     .then(res => console.log(res))
+//     .catch(err => console.log(err))
+
